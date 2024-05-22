@@ -2,13 +2,18 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.5rem 4rem;
+  margin-bottom: 4rem;
   background-color: #f4f4f4;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 nav ul {
   display: flex;
-  text-decoration: none;
   gap: 4rem;
   list-style: none;
+}
+nav ul a {
+  text-decoration: none;
 }

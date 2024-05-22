@@ -1,0 +1,39 @@
+.quote-sec-1 {
+    display: flex;
+    justify-content: center;
+}
+form {
+    margin-bottom: 30px;
+}
+.quote-sec-2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 800px;
+    background-color: lightgray;
+}
+.quote-sec-2 form div label {
+    margin-bottom: 10px;
+}
+@media only screen
+and (min-width : 0px)
+and (max-width : 892px) {
+    .form-div {
+        width: 300px;
+    }
+    #description {
+        width: 250px;
+    }
+    .quote-sec-1 {
+        text-align: center;
+        padding-top: 100px;
+    }
+}

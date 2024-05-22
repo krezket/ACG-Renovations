@@ -4,12 +4,14 @@ import './Header.css';
 export default function Header() {
   return (
     <header>
-      <h1>ACG Renovations</h1>
+      <Link to='/'>
+        <h1>ACG Renovations</h1>
+      </Link>
       <nav>
         <ul>
           <Link to="/">Home</Link>
-          <Link to="/contact">Contact</Link>
           <Link to="/services">Services</Link>
+          <Link to="/contact">Contact</Link>
           <Link to="/about">About</Link>
         </ul>
       </nav>

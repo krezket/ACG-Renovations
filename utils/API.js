@@ -3,7 +3,7 @@ const URL_PREFIX = "https://wih-backend-78d28634cdc0.herokuapp.com"
 
 
 const API = {
-    sendQuote: async (quote) => {
+    sendForm: async (quote) => {
         try {
             const response = await fetch(`${URL_PREFIX}/submit-quote`, {
                 method: 'POST',

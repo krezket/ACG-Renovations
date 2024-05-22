@@ -1,4 +1,5 @@
 import Header from '../../components/Header/Header';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 import fp1 from '../../assets/images/fp.jpg';
@@ -13,16 +14,19 @@ export default function Home() {
       <main>
 
         <section className='fp-section-1'>
+
           <div className='fp-section-div'>
-            <h2>Proudly serving the greater Seattle area for more than 10 years.</h2>
+            <h1>Proudly serving the greater Seattle area for more than 10 years.</h1>
             <p>Our mission is to provide the highest quality home renovation services at competitive prices.</p>
-            <button>
-              <h1>Get Your Free Estamate</h1>
-            </button>
+            <Link to='/estimate'>
+              <button>
+                <h2>Get Your Free Estamate</h2>
+              </button>
+            </Link>
           </div>
 
           <div className='fp-image-div'>
-            <img src={fp1} alt="acg-renovations" />
+            <img src={fp4} alt="acg-renovations" />
           </div>
         </section>
 

@@ -1,13 +1,12 @@
 import Header from '../../components/Header/Header';
 
-export default function Contact() {
+export default function EmailSent() {
   return (
     <>
       <Header />
       <main>
-        <h1>Contact</h1>
-        <p>Welcome to the Contact page!</p>
+        <h1>Your Email Was Sent!</h1>
       </main>
-    </>
-  )
+    </>  
+    )
 }

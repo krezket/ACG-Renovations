@@ -14,10 +14,10 @@ export default function Home() {
       <main className='fp-main'>
 
         <section className='fp-section-1'>
-
           <div className='fp-section-1-div'>
             <h1>Proudly serving the greater Seattle area for more than 10 years.</h1>
             <p>Our mission is to provide the highest quality home renovation services at competitive prices.</p>
+
             <Link to='/estimate'>
               <button>
                 <h2>Get Your Free Estamate</h2>
@@ -28,20 +28,32 @@ export default function Home() {
           <div className='fp-image-div'>
             <img src={fp4} alt="acg-renovations" />
           </div>
-
         </section>
 
         <section className="fp-section-2">
-
           <div>
             <img src={fp3} alt="acg-renovations" />
           </div>
-          
-          <div className='fp-section-2-div'>
-            <h1>Anything you need for a great price</h1>
 
+          <div className='fp-section-2-div'>
+            <h1>We are Committed to Your Satisfaction</h1>
+          </div>
+        </section>
+
+        <section className="fp-section-3">
+          <div className='fp-section-3-div'>
+            <h1>We are Committed to Your Satisfaction</h1>
           </div>
 
+          <div className='fp-image-div'>
+            <img src={fp2} alt="acg-renovations" />
+          </div>
+        </section>
+
+        <section className="fp-section-4">
+          <div className='fp-image-div'>
+            <img src={fp1} alt="acg-renovations" />
+          </div>
         </section>
 
       </main>

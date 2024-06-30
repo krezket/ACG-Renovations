@@ -21,33 +21,42 @@ export default function Home() {
             <Link to='/estimate'>
               <button>
                 <h2>Get Your Free Estamate</h2>
+
               </button>
+
             </Link>
           </div>
-
+          
           <div className='fp-image-div'>
             <img src={fp4} alt="acg-renovations" />
+
           </div>
+
         </section>
 
         <section className="fp-section-2">
-          <div>
+          <div className='fp-image-div'>
             <img src={fp3} alt="acg-renovations" />
-          </div>
 
+          </div>
           <div className='fp-section-2-div'>
             <h1>We are Committed to Your Satisfaction</h1>
+            <p>Our team of experienced professionals is dedicated to providing the highest quality home renovation services at competitive prices.</p>
+
           </div>
+
         </section>
 
         <section className="fp-section-3">
           <div className='fp-section-3-div'>
             <h1>We are Committed to Your Satisfaction</h1>
-          </div>
 
+          </div>
           <div className='fp-image-div'>
             <img src={fp2} alt="acg-renovations" />
+
           </div>
+
         </section>
 
         <section className="fp-section-4">

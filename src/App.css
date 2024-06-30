@@ -1,4 +1,5 @@
 body {
+  padding-top: 200px;
   margin: 0;
 }
 
@@ -7,4 +8,10 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+button {
+  background-color: rgb(39, 39, 196);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

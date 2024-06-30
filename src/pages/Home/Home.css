@@ -29,14 +29,21 @@
 .fp-section-1-div h1,
 .fp-section-2-div h1,
 .fp-section-3-div h1 {
+    font-family: "DM Serif Display", serif;
     font-size: 45px;
 }
 
+.fp-section-1-div p,
+.fp-section-2-div p,
+.fp-section-3-div p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* SECTION 1 INTERIOR IMAGES */
-.fp-image-div {
-    padding-right: 60px;
+/* .fp-image-div {
     width: 70%;
-}   
+}    */
 .fp-image-div img {
+    border-radius: 10px;
     width: 100%;
 }

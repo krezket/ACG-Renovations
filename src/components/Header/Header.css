@@ -7,8 +7,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0.9rem 5rem;
-  margin-bottom: 4rem;
-  background-color: #dce2ff;
+  background-color: #b2b2b2;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -18,14 +17,15 @@ header a {
   color: black
 }
 header a h1 {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 40px;
   font-style: normal;
 }
 
 nav ul {
   display: flex;
-  gap: 4rem;
+  gap: 7rem;
   list-style: none;
 }
 nav ul a {

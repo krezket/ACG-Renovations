@@ -18,7 +18,7 @@ form {
     padding: 10px;
     border-radius: 5px;
     width: 800px;
-    background-color: lightgray;
+    background-color: rgb(189, 202, 255);
 }
 .quote-sec-2 form div label {
     margin-bottom: 10px;

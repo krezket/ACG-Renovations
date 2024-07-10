@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
+import Estimate from '../Estimate/EstimateButton';
+
 
 export default function Header() {
   return (
@@ -9,6 +11,8 @@ export default function Header() {
       </Link>
       <nav>
         <ul>
+            <Estimate />
+
           <Link to="/">Home</Link>
           <Link to="/services">Services</Link>
           <Link to="/contact">Contact</Link>

@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <main className='fp-main'>
 
-        <section className='fp-section-1'>
+        <section className='fp-section-1' id='first'>
           <div className='fp-section-1-div'>
             <h1>Proudly serving the greater Seattle area for more than 10 years.</h1>
             <p>Our mission is to provide the highest quality home renovation services at competitive prices.</p>
